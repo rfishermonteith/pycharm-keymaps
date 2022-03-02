@@ -30,7 +30,6 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl #10000a7" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
-    <keyboard-shortcut first-keystroke="meta back_quote" />
     <keyboard-shortcut first-keystroke="ctrl 8" />
   </action>
   <action id="ActivateVersionControlToolWindow">
@@ -38,6 +37,18 @@
     <keyboard-shortcut first-keystroke="ctrl 9" />
   </action>
   <action id="CopyElement" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="meta button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="meta button143" />
+  </action>
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="shift alt e" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -51,7 +62,10 @@
   <action id="GotoBookmark7" />
   <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
-  <action id="NextWindow" />
+  <action id="GotoRelated" />
+  <action id="OpenInBrowser">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="QuickChangeScheme" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f5" />
@@ -60,4 +74,5 @@
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
+  <action id="Vcs.QuickListPopupAction" />
 </keymap>

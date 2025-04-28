@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="ctrl 9" />
   </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta subtract" />
+  </action>
   <action id="CopyElement" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
@@ -53,6 +56,9 @@
     <keyboard-shortcut first-keystroke="shift alt e" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta add" />
   </action>
   <action id="GotoBookmark0" />
   <action id="GotoBookmark1" />
@@ -75,4 +81,12 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
+  <action id="ZoomInIdeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+  </action>
+  <action id="ZoomOutIdeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+  </action>
 </keymap>

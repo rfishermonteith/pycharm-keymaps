@@ -11,7 +11,7 @@ On mac this is
 
 I've symlinked this to this repo, using 
 ```commandline
-ln -s ~/Documents/repos/pycharm-keymaps ~/Library/Application\ Support/JetBrains/PyCharm2024.3/keymaps/keymaps
+ln -s ~/Documents/repos/pycharm-keymaps ~/Library/Application\ Support/JetBrains/PyCharm2024.3/keymaps
 ```
 
 I haven't yet tested how this works when updating the PyCharm version.
